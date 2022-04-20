@@ -9,6 +9,11 @@ pipeline {
               sh "mvn compile"
           }
       }
+    stage("Random Stage"){
+          steps{
+            echo "Random Stage"
+          }
+      }
       stage("Package"){
           steps{
               sh "mvn package -DskipTests"
