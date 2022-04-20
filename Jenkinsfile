@@ -12,7 +12,7 @@ pipeline {
       }
       stage("Package"){
           steps{
-              echo "This is package stage"
+              echo "This is package stage - 2"
               sh "mvn package -DskipTests"
           }
       }
