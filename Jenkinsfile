@@ -11,7 +11,7 @@ pipeline {
       }
     stage("Random Stage"){
           steps{
-            echo "Random Stage - 3"
+            echo "Random Stage - 4"
           }
       }
       stage("Package"){
